@@ -64,6 +64,7 @@ nextBtn.addEventListener("click", () => {
     startingItem = 0;
   }
   showPerson(startingItem);
+  console.log(startingItem);
 });
 
 // show prev person
@@ -73,4 +74,10 @@ prevBtn.addEventListener("click", () => {
     startingItem = reviews.length - 1;
   }
   showPerson(startingItem);
+});
+
+randomBtn.addEventListener("click", () => {
+  const randomNumber = Math.floor(Math.random() * reviews.length);
+  console.log(randomNumber);
+  showPerson(randomNumber);
 });
