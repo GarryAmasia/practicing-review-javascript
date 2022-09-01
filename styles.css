@@ -160,7 +160,7 @@ main {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-color: rgba(255, 99, 71, 0.34);
+  background-color: rgba(255, 212, 71, 0.34);
 }
 .title {
   text-align: center;
@@ -203,6 +203,7 @@ main {
   object-fit: cover;
   border-radius: 50%;
   position: relative;
+  object-fit: cover;
 }
 .img-container::after {
   font-family: "Font Awesome 5 Free";
